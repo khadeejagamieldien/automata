@@ -1,0 +1,174 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #4b6a53;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Header */
+/* Header */
+header {
+    position: fixed;
+    top: 15px;
+    width: 100%;
+    background-color: transparent; /* Make header transparent */
+    z-index: 1000; /* Ensure header stays on top of other elements */
+    padding-left: 40px;
+    justify-content: space-between;
+    
+}
+
+.nav-container {
+    display: flex; 
+    align-items: center;
+}
+
+.nav-container .logo {
+    font-size: 40px;
+    color: #fff; /* Ensure logo is visible */
+    font-weight: bolder;
+}
+
+.nav-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 700px;
+    justify-content: space-between;
+}
+
+.nav-container nav ul li a {
+    color: white; /* White text color for better visibility */
+    font-size: 20px;
+    transition: color 0.3s;
+    justify-content: space-between;
+}
+
+.nav-container nav ul li a:hover {
+    color: orange; /* Change text color on hover */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    width: auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url('/Users/admin/Downloads/The Web/floral.html/img/Untitled design-9.jpg') no-repeat; /* Ensure no-repeat */
+    background-size: auto; /* Keeps the image at its original size */
+    background-position: top 35% right 8%; /* Adjust position as needed */
+    overflow: hidden; /* Optional: Hide overflow */
+}
+
+button {
+    background-color: #74c8d5;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
+  .five-column-container {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(5, 1fr); /* Define 5 equal-width columns */
+    max-width: 1360px; /* Limit the container width */
+    margin: 0 auto; /* Center the container */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.column2 {
+    background-color: black;
+    border: 1px solid grey;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Optional: Add a hover effect */
+}
+
+.column2 h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: darkblue;
+    padding-top: 30px;  
+}
+
+.column2 p {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+/* Optional Hover Effect */
+.column2:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+.handmade-section {
+    background-color: #111;
+    padding: 100px 20px;
+    text-align: center;
+}
+.achievements {
+    display: flex; /* Align items in a row */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */ 
+    opacity: 1;
+    text-align: center; /* Center-align text */
+   padding: 0 auto;
+   gap: 10px;
+}
+
+.achievement-item {
+    flex: 1; /* Equal width for all items */
+    opacity: 1;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 150px; /* Optional: Limit width for responsiveness */
+    gap: 10px;
+}
+
+.achievement-item h3 {
+    font-size: 15px; /* Heading size */
+    margin-bottom: 10px; /* Space below heading */
+    color: #fff; /* Heading color */
+}
+
+.achievement-item p {
+    font-size: 1em; /* Paragraph size */
+    color: black; /* Paragraph color */
+    line-height: 1.5; /* Line height for readability */
+    gap: 10px;
+}

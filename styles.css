@@ -71,7 +71,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background: url('/Users/admin/Downloads/The Web/floral.html/img/Untitled design-9.jpg') no-repeat; /* Ensure no-repeat */
+    background: url('/Users/admin/Downloads/The Web/floral.html/img/Untitled design-9.jpg') no-repeat;
     background-size: auto;
     background-position: top 35% right 8%; 
     overflow: hidden; 
